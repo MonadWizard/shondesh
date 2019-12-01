@@ -1,0 +1,2 @@
+model_checkpoint_path: "D:\\code\\web_dev\\django\\chatbot\\flaskbot\\model.tflearn"
+all_model_checkpoint_paths: "D:\\code\\web_dev\\django\\chatbot\\flaskbot\\model.tflearn"

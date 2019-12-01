@@ -1,0 +1,174 @@
+{"intents": [
+    	{"tag": "greeting",
+    	 "patterns": ["Hi", "How are You", "Is anyone there?", "Hello", "Oi"],
+    	 "responses": ["Hello there, whats up. How can i help?"],
+    	 "context_set": ""
+    	},
+
+    	{"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["Bye, thanks for visiting. Have a nice day. Please Come back again soon."]
+        },
+
+    	{"tag": "varsity",
+    	 "patterns": ["tell me about Daffodil International University", "DIU", "diu", "daffodil university", "want to know about daffodil varsity"],
+    	 "responses": ["I am going to tell you about DIU. This is one of top graded universities in bangladesh. 
+    	 It has been founded by Daffodil Group 
+	           with the approval of the Ministry of Education under the private university act of 1992. 
+	           The varsity came into being on 24th january 2002."]
+    	},
+
+    	{"tag": "campus",
+    	 "patterns": ["where is diu", "diu location", "campus", "where is the campus"],
+    	 "responses": ["There are two campuses. One is Main campus and another one is Permanent Campus.
+            				Main Campus is located in Dhanmondi. Permanent Campus is in Ashulia"]
+    	},
+
+    	{"tag": "chairman",
+    	 "patterns": ["who is the chairman?", "chairman of DIU", "tell me about chairman sir", "founder", "chairman",  "Sabur Khan"],
+    	 "responses": ["Dr. Md Sabur Khan is the chairman and the Board Of Trusties of Daffodil International University"]
+    	},
+    	
+    	{"tag": "Faculties",
+    	 "patterns": ["faculties", "tell me about faculties", "how many faculties are there", "how many faculties"],
+    	 "responses": ["There are five faculties 1) Faculty of Science and Information Technology 2) Faculty of Engineering, 3) Faculty of Business & Entrepreneurship, 
+    	 4) Faculty of Humanities and Social Science Faculty of Allied Health Science"]
+    	},
+
+    	{"tag": "Departments",
+    	 "patterns": ["departments", "how many departments", "departments in diu"],
+    	 "responses": ["There are 24 deparments now. 
+            	  They are 1) Department of Business Studies 2) Department of Real Estate
+    		      3) Department of Tourism & Hospitality Management 4) Department of Innovation & Entrepreneurship
+    		      5) Department of Computer Science & Engineering 6) Department of Computing & Information System (CIS)
+    		      7) Department of Software Engineering 8) Department of Environmental Science and Disaster Management
+    		      9) Department of Multimedia & Creative Technology (MCT) 10) Department of General Educational Development (GED)
+    		      11) Department of Electronics & Telecommunication Engineering  (ETE) 12) Department of Textile Engineering
+    		      13) Department of Electrical & Electronic Engineering 14) Department of Architecture 15) Department of Civil Engineering
+    		      16) Department of Pharmacy 17) Department of Public Health 18) Department of Nutrition & Food Engineering
+    		      19) Department of English 20) Department of Law 21) Department of Journalism & Mass Communication 22) Department of Development Studies
+    			23) Department of Information Science and Library Management 24) Department of Business Administration"]
+    	},
+
+    	{"tag": "Institutes",
+    	 "patterns": ["daffodil institutes", "institutes of daffodil", "daffodil institutes", "how many institutes daffodil have"],
+    	 "responses": ["There are four institutes of daffodil. 
+                    	 They are 1) Institutional Quality Assurance Cell (IQAC)
+            		     2) Human Resource Development Institute (HRD Institute) 
+            		     3) Daffodil Institute of Social Sciences (DISS)
+                		 4) Daffodil Institute of languages (DIL)"]
+    	},
+    	
+    	{"tag": "VC",
+	 "patterns": ["vice-chancellor", "name of the vice-chancellor of diu", "who is the vice-chancellor of diu", "vc", "vice-chancellor of diu", "vc of diu"],
+	 "responses": ["Professor Dr Yousuf Mahbubul Islam. He is the Hon'ble vice chancellor of Daffodil International University"]
+	},
+	
+	{"tag": "chancellor", 
+	 "patterns": ["who is the chancellor?", "chancellor", "chancellor of diu", "diu chancellor", "name of chancellor"],
+	 "responses": ["Mr. Md. Abdul Hamid. His the Hon’ble President of the People’s Republic of Bangladesh and Hon’ble Chancellor of Daffodil International University"]
+	},
+	
+	{"tag": "ProVc",
+	 "patterns": ["Pro-vc", "provc", "Pro-vice-chancellor", "tell me about pro-vc", "who is the pro-vc of diu", "name of pro-vc", "pro-vc name", "pro-vc of diu"],
+	 "responses": ["Professor Dr. S.M. Mahbub Ul Haque Majumder is the Hon'ble Pro Vice Chancellor of Daffodil International University."]
+	},
+	
+	{"tag": "FSIT",
+	 "patterns":["Faculty of Science and Information Technology", "fsit", "faculty of science and it"],
+	 "responses":["Faculty of Science and Information Technology(FSIT) has 5 undergraduate programs icluding 
+	                Computer Science & Engineering (CSE), Computing & Information System (CIS), Software Engineering (SWE),
+	                Multimedia and Creative Technology (MCT), General Educational Development (GED), 
+	                Environmental Science and Disaster Management (ESDM). Three graduate programs icluding 
+		        M.Sc in Computer Science & Engineering (CSE), M.Sc in Software Engineering (SWE),
+			MS in Management Information System."]
+	},
+	
+	{"tag": "FBE",
+	 "patterns":["Faculty of Business & Entrepreneurship", "fbe", "Business & Entrepreneurship"],
+	 "responses":["Faculty of Business & Entrepreneurship(FBE) has 5 departments including DEPARTMENT OF BUSINESS ADMINISTRATION,
+	               DEPARTMENT OF REAL ESTATE, DEPARTMENT OF TOURISM & HOSPITALITY MANAGEMENT, DEPARTMENT OF BUSINESS STUDIES, 
+		       DEPARTMENT OF INNOVATION & ENTREPRENEURSHIP."]
+	},
+	
+	{"tag": "FHSS", 
+	 "patterns":["Faculty of Humanities & Social Science", "fhss", "Humanities & Social Science"],
+	 "responses":["Faculty of Humanities & Social Science has 4 undergraduate programs including Journalism & Mass Communication,
+		      English, Law, Information Science and Library Management. five graduate programs including 
+			Masters of Arts in English, Master of Law, MSS in Journalism & Mass Communication (JMC), 
+		         Post Graduate Diploma in Information Science and Library Management, Master of Development Studies."]
+	},
+	
+	{"tag": "FE",
+	 "patterns":["Faculty of Engineering", "fe", "Engineering"],
+	 "responses":["Faculty of Engineering has five undergraduate programs including Electronics & Telecommunication Engineering,
+			Textile Engineering, Electrical & Electronic Engineering, Architecture, Civil Engineering. Two graduate programs 
+			including M.Sc in Electronics & Telecommunication Engineering (ETE), M.Sc in Textile Engineering (TE)."]
+	},
+	
+	{"tag": "FAHS",
+	 "patterns": ["fahs", "Faculty of Allied Health Sciences", "allide health", "allide health science"],
+	 "responses":["Faculty of Allied Health Science has 2 undergraduate programs including Pharmacy, 
+		      Nutrition & Food Engineering. Two graduate programs including Master of Pharmacy (M.Pharm), Master of Public Health (MPH)."]
+	},
+	{"tag": "CSE",
+	 "patterns":["cse", "computer science and engineering", "cse department", "dept of cse", "cse dept", "tell me about cse"],
+	 "responses":["Daffodil International University’s mission is defined by its IT-based traditions of service and access. 
+			To upheld, DIU started with the Department of Computer Science and Engineering (CSE) in January 24, 2002.
+			You can get any information from the department coordination office. For more information Please visit:http://cse.daffodilvarsity.edu.bd/" ]
+	},
+	{"tag": "CSE office",
+	 "patterns":["cse-office", "location of cse-office", "cse-office location"],
+	 "responses":["CSE coordination office is at 4th floor, AB-4 building, room no:505 Please contact with Mr Tanvir Ahmed."]
+	},
+	{"tag": "BBA",
+	 "patterns":["bba", "bba department", "dept of bba", "bba dept", "tell me about bba"],
+	 "responses":["Department of Business Administration. You can get any information from the department coordination office. For more please visit:https://dba.daffodilvarsity.edu.bd/"]
+	},
+	{"tag": "LAW",
+	 "patterns":["llb", "llb department", "dept of llb", "llb dept", "tell me about llb", "law", "law department", "dept of law", "law dept", "tell me about law"],
+	 "responses":["Department of Law. You can get any information from the department coordination office. For more please visit:http://law.daffodilvarsity.edu.bd/"]
+	},
+	{"tag": "English",
+	 "patterns":["eng", "eng department", "dept of eng", "eng dept","tell me about eng", "tell me about english", "english", "english department", "dept of english", "english dept"],
+	 "responses":["Department Of English. You can get any information from the department coordination office. For more please visit:http://english.daffodilvarsity.edu.bd/"]
+	},
+	{"tag": "CIVIL",
+	 "patterns":["civil", "civil Engineering department", "dept of civil engineering", "civil engineering dept", "tell me about civil", "tell me about civil engineering", "ce", "ce department", "dept of ce", "ce dept", "tell me about of ce"],
+	 "responses":["Department of Civil Engineering. You can get any information from the department coordination office. For more please visit:http://ce.daffodilvarsity.edu.bd/"]
+	},
+	{"tag": "SWE",
+	 "patterns":["swe", "swe department", "dept of swe", "swe dept", "tell me about SWE", "software engineering", "software engineering department", "dept of software engineering", "software engineering dept", "tell me about software engineering"],
+	 "responses":["Department of Software Engineering. You can get any information from the department coordination office. please visit:http://swe.daffodilvarsity.edu.bd/"]
+	},
+	{"tag": "Textile",
+	 "patterns":["te", "te department", "dept of te", "te dept", "tell me about te", "textile engineering", "textile engineering department", "dept of textile engineering", "textile engineering dept", "tell me about textile"],
+	 "responses":["Department of Textile Engineering. You can get any information from the department coordination office. for more Please visit:http://te.daffodilvarsity.edu.bd/"]
+	},
+	{"tag": "EEE",
+	 "patterns":["eee", "eee department", "dept of eee", "eee dept", "tell me about eee"],
+	 "responses":["Department Of Electrical and Electronic Engineering. You can get any information from the department coordination office. for more please visit:http://eee.daffodilvarsity.edu.bd/"]
+	},
+	{"tag": "Pha",
+	 "patterns":["pha", "pharmacy", "pharmacy department", "dept of pha", "pha dept", "tell me about pharmacy"],
+	 "responses":["Department Of Pharmacy. You can get any information from the department coordination office. for more please visit:http://pharmacy.daffodilvarsity.edu.bd/"]
+	},
+	{"tag": "how",
+	 "patterns":["How are you", "How are u", "kemon acho", "ki obostha", "ki koro"],
+	 "responses":["ok, i am fine dear, how can i help you?"]
+	},
+    {"tag": "chole",
+	 "patterns":["Campus a ki chole", "Bro campus er ki khobor", "Campus a ki chole bro", "Campus er ki obosta"],
+	 "responses":["Ki ar cholbo campus e, khali class chole, tomer ki obostha bro, Bro kono help korte pari?"]
+	},
+	{"tag": "shondesh",
+	 "patterns":["who are you", "tomi k", "k tomi", "tomar nam ki"],
+	 "responses":["My name is shondesh, i am here to tell you about diu if you ask"]
+	},
+	
+    {"tag": "know",
+	 "patterns":["do you know me", "who i am", "ke ami", "ami ke", "ami ki","ki ami","tell about me"],
+	 "responses":["Oh dear, you are the person who is chatting with me right now"]
+	}
+    ]
+}
